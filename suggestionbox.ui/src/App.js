@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Suggestion from './components/suggestion';
+import Suggestion from './components/Suggestion';
+import data from './mock-data/suggestions.json';
 
 class App extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      suggestions: [],
+      suggestions: []//data.suggestions,
     };
   };
 
   render() {
-    const suggestions = this.state.suggestions.map((suggestion) =>
+    const suggestions = data.suggestions.map((suggestion) =>
         <Suggestion 
           title={suggestion.title}
           submitted={suggestion.datetime_submitted}

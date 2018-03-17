@@ -14,19 +14,19 @@ class Suggestion extends Component {
         const comments = this.props.responses.map((response) =>
             <li key={response.user_id}>{response.comment}</li>
         );
-        
-        const rating = this.props.reponses.reduce(function(total, response) { 
-            return total + response.rating;
-        });
+
+        const rating = this.props.responses.reduce((total, response) => {
+            return  total + response.rating 
+        }, 0);
         
         return (
-            <div>
-                <div className="Suggestion_Title">{this.prop.title}</div>
-                <div className="Datetime_Submitted">{this.prop.datetime_submitted}</div>
-                <div className="Author">{this.prop.author}</div>
+            <div className="Suggestion">
+                <div className="Suggestion_Title">{this.props.title}</div>
+                <div className="Datetime_Submitted">{this.props.datetime_submitted}</div>
+                <div className="Author">{this.props.author}</div>
                 <ul className="Tags">{metaTags}</ul>
-                <div className="RatingButtonUp" onClick="() => this.handleRatingButtonClick(1)"/>
-                <div className="RatingButtonDown" onClick="() => this.handleRatingButtonClick(-1)"/>
+                <div className="RatingButtonUp" onClick={() => this.handleRatingButtonClick(1)}/>
+                <div className="RatingButtonDown" onClick={() => this.handleRatingButtonClick(-1)}/>
                 <div className="Rating">{rating}</div>
                 <CommentEntryBox />
                 <ul className="Comments">{comments}</ul>
