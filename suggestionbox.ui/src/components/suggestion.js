@@ -28,7 +28,6 @@ class Suggestion extends Component {
                 <div className="RatingButtonUp" onClick={() => this.handleRatingButtonClick(1)}/>
                 <div className="RatingButtonDown" onClick={() => this.handleRatingButtonClick(-1)}/>
                 <div className="Rating">{rating}</div>
-                <CommentEntryBox />
                 <ul className="Comments">{comments}</ul>
             </div>
         );

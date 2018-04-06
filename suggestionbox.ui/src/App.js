@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Suggestion from './components/Suggestion';
 import data from './mock-data/suggestions.json';
+import Navigation from './components/Navigation';
 
 class App extends Component {
   constructor(props) {
@@ -26,11 +27,8 @@ class App extends Component {
     
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
         <div>
+          <Navigation />
           {suggestions}
         </div>
       </div>
