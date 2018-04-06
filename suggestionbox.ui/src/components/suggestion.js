@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import CommentEntryBox from './CommentEntryBox'
 
 class Suggestion extends Component {
     handleRatingButtonClick = (value) => {
