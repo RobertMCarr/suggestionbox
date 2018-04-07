@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Text, TextArea } from "@blueprintjs/core";
 
 class Suggestion extends Component {
     handleRatingButtonClick = (value) => {
@@ -6,12 +7,12 @@ class Suggestion extends Component {
     }
 
     render() {
-        const metaTags = this.props.tags.map((tag) =>
-            <li key={tag}>{tag}</li>
-        );
-
         const comments = this.props.responses.map((response) =>
             <li key={response.user_id}>{response.comment}</li>
+        );
+
+        const tags = this.props.tags.map((tag) =>
+            <span className="pt-tag pt-intent-primary">{tag}</span>
         );
 
         const rating = this.props.responses.reduce((total, response) => {
@@ -19,15 +20,17 @@ class Suggestion extends Component {
         }, 0);
         
         return (
-            <div className="Suggestion">
-                <div className="Suggestion_Title">{this.props.title}</div>
-                <div className="Datetime_Submitted">{this.props.datetime_submitted}</div>
-                <div className="Author">{this.props.author}</div>
-                <ul className="Tags">{metaTags}</ul>
-                <div className="RatingButtonUp" onClick={() => this.handleRatingButtonClick(1)}/>
-                <div className="RatingButtonDown" onClick={() => this.handleRatingButtonClick(-1)}/>
-                <div className="Rating">{rating}</div>
-                <ul className="Comments">{comments}</ul>
+            <div className="Suggestion pt-dark">
+            <Text >{this.props.title}</Text>
+            <div className="Datetime_Submitted">{this.props.datetime_submitted}</div>
+            <Text>{this.props.author}</Text>
+            <p>{tags}</p>
+            <div className="pt-button-group pt-vertical">
+                <a className="pt-button pt-icon-arrow-up" role="button" tabindex="0" onClick={() => this.handleRatingButtonClick(1)}></a>
+                <a className="pt_button pt-active" role="button" tabindex="0">{rating}</a>
+                <a className="pt-button pt-icon-arrow-down" role="button" tabindex="0" nClick={() => this.handleRatingButtonClick(-1)}></a>
+            </div>
+            <TextArea value={comments}></TextArea>
             </div>
         );
     }

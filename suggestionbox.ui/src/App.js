@@ -26,11 +26,15 @@ class App extends Component {
     );
     
     return (
-      <div className="App">
-        <div>
+      <div className="App pt-dark">
           <Navigation />
+          <div className="hidden">
+            <div className="pt-callout pt-intent-primary">
+              <h4 className="pt-callout-title">Callout Heading</h4>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, delectus!
+            </div>
+          </div>
           {suggestions}
-        </div>
       </div>
     );
   }
