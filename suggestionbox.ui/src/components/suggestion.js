@@ -21,16 +21,16 @@ class Suggestion extends Component {
         
         return (
             <div className="Suggestion pt-dark">
-            <Text >{this.props.title}</Text>
-            <div className="Datetime_Submitted">{this.props.datetime_submitted}</div>
-            <Text>{this.props.author}</Text>
-            <p>{tags}</p>
-            <div className="pt-button-group pt-vertical">
-                <a className="pt-button pt-icon-arrow-up" role="button" tabindex="0" onClick={() => this.handleRatingButtonClick(1)}></a>
-                <a className="pt_button pt-active" role="button" tabindex="0">{rating}</a>
-                <a className="pt-button pt-icon-arrow-down" role="button" tabindex="0" nClick={() => this.handleRatingButtonClick(-1)}></a>
-            </div>
-            <TextArea value={comments}></TextArea>
+                <Text >{this.props.title}</Text>
+                <div className="Datetime_Submitted">{this.props.datetime_submitted}</div>
+                <Text>{this.props.author}</Text>
+                <p>{tags}</p>
+                <div className="pt-button-group pt-vertical">
+                    <a className="pt-button pt-icon-arrow-up" role="button" tabindex="0" onClick={() => this.handleRatingButtonClick(1)}></a>
+                    <a className="pt_button pt-active" role="button" tabindex="0">{rating}</a>
+                    <a className="pt-button pt-icon-arrow-down" role="button" tabindex="0" nClick={() => this.handleRatingButtonClick(-1)}></a>
+                </div>
+                <TextArea value={comments}></TextArea>
             </div>
         );
     }
