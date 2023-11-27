@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("suggestionbox.core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5817389076e3c590703ced700a41149f69737123")]
 [assembly: System.Reflection.AssemblyProductAttribute("suggestionbox.core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("suggestionbox.core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

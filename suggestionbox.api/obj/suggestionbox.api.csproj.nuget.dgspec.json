@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj": {}
+    "c:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj": {}
   },
   "projects": {
-    "C:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj": {
+    "c:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj",
+        "projectUniqueName": "c:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj",
         "projectName": "suggestionbox.api",
-        "projectPath": "C:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj",
+        "projectPath": "c:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj",
         "packagesPath": "C:\\Users\\RobCa\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\suggestionbox\\suggestionbox.api\\obj\\",
+        "outputPath": "c:\\github\\suggestionbox\\suggestionbox.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RobCa\\AppData\\Roaming\\NuGet\\NuGet.Config"

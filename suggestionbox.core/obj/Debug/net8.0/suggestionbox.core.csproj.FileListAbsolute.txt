@@ -1,0 +1,12 @@
+C:\github\suggestionbox\suggestionbox.core\bin\Debug\net8.0\suggestionbox.core.deps.json
+C:\github\suggestionbox\suggestionbox.core\bin\Debug\net8.0\suggestionbox.core.dll
+C:\github\suggestionbox\suggestionbox.core\bin\Debug\net8.0\suggestionbox.core.pdb
+C:\github\suggestionbox\suggestionbox.core\obj\Debug\net8.0\suggestionbox.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\suggestionbox\suggestionbox.core\obj\Debug\net8.0\suggestionbox.core.AssemblyInfoInputs.cache
+C:\github\suggestionbox\suggestionbox.core\obj\Debug\net8.0\suggestionbox.core.AssemblyInfo.cs
+C:\github\suggestionbox\suggestionbox.core\obj\Debug\net8.0\suggestionbox.core.csproj.CoreCompileInputs.cache
+C:\github\suggestionbox\suggestionbox.core\obj\Debug\net8.0\suggestionbox.core.sourcelink.json
+C:\github\suggestionbox\suggestionbox.core\obj\Debug\net8.0\suggestionbox.core.dll
+C:\github\suggestionbox\suggestionbox.core\obj\Debug\net8.0\refint\suggestionbox.core.dll
+C:\github\suggestionbox\suggestionbox.core\obj\Debug\net8.0\suggestionbox.core.pdb
+C:\github\suggestionbox\suggestionbox.core\obj\Debug\net8.0\ref\suggestionbox.core.dll

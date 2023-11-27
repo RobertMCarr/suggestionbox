@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NgSnriBGLBimeZ779qUBPtt2grbJfNAUw6vmVz6OmtlmIIoqPmf8K3JhvWyuaME1bd9UuLVIQGtX/BuwnBg1Ow==",
+  "dgSpecHash": "1l62XaSV+hpa2AnSVfvRRHXK8Wb9Gd/h4rELF+CYsdv/T93i+ewdAarGRnZKL3IK+JwhH8HUC6pEJiopoyL/xQ==",
   "success": true,
-  "projectFilePath": "C:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj",
+  "projectFilePath": "c:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RobCa\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\RobCa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

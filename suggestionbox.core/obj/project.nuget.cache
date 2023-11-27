@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cqs0UfHxJTeWrm71dXnzy+UEVvLBG6Ou9O3dqYzEqaGvJGXFEeQqnaO0QmK8RxTZpiffwfYHmuyd7qHX+2rwEg==",
+  "dgSpecHash": "Ox1C7zZx6ZOKoEWpIjxDAJtwsnuMxMi3OgYvI5zUj5xDihfbNDLE5wUfZPZJToM+JgiiCM1yhZ1aOY11YtK1Uw==",
   "success": true,
-  "projectFilePath": "C:\\github\\suggestionbox\\suggestionbox.core\\suggestionbox.core.csproj",
+  "projectFilePath": "c:\\github\\suggestionbox\\suggestionbox.core\\suggestionbox.core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
