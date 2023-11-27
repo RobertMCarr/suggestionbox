@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suggestionbox.api", "suggestionbox.api\suggestionbox.api.csproj", "{FC17A652-78CD-4C91-977B-0F5E4DC6620C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suggestionbox.core", "suggestionbox.core\suggestionbox.core.csproj", "{0ACBBD74-9873-4E52-BB72-70689BD91EBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC17A652-78CD-4C91-977B-0F5E4DC6620C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC17A652-78CD-4C91-977B-0F5E4DC6620C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC17A652-78CD-4C91-977B-0F5E4DC6620C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC17A652-78CD-4C91-977B-0F5E4DC6620C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ACBBD74-9873-4E52-BB72-70689BD91EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACBBD74-9873-4E52-BB72-70689BD91EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACBBD74-9873-4E52-BB72-70689BD91EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACBBD74-9873-4E52-BB72-70689BD91EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
