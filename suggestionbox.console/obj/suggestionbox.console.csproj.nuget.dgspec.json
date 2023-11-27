@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj": {}
+    "C:\\github\\suggestionbox\\suggestionbox.console\\suggestionbox.console.csproj": {}
   },
   "projects": {
-    "C:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj": {
+    "C:\\github\\suggestionbox\\suggestionbox.console\\suggestionbox.console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj",
-        "projectName": "suggestionbox.api",
-        "projectPath": "C:\\github\\suggestionbox\\suggestionbox.api\\suggestionbox.api.csproj",
+        "projectUniqueName": "C:\\github\\suggestionbox\\suggestionbox.console\\suggestionbox.console.csproj",
+        "projectName": "suggestionbox.console",
+        "projectPath": "C:\\github\\suggestionbox\\suggestionbox.console\\suggestionbox.console.csproj",
         "packagesPath": "C:\\Users\\RobCa\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\suggestionbox\\suggestionbox.api\\obj\\",
+        "outputPath": "C:\\github\\suggestionbox\\suggestionbox.console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RobCa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,16 +37,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -59,9 +49,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

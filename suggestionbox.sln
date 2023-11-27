@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suggestionbox.api", "sugges
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suggestionbox.core", "suggestionbox.core\suggestionbox.core.csproj", "{0ACBBD74-9873-4E52-BB72-70689BD91EBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suggestionbox.console", "suggestionbox.console\suggestionbox.console.csproj", "{A4C679B7-9CD1-4637-BF30-03A3E4FA910A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{0ACBBD74-9873-4E52-BB72-70689BD91EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ACBBD74-9873-4E52-BB72-70689BD91EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ACBBD74-9873-4E52-BB72-70689BD91EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C679B7-9CD1-4637-BF30-03A3E4FA910A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C679B7-9CD1-4637-BF30-03A3E4FA910A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C679B7-9CD1-4637-BF30-03A3E4FA910A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C679B7-9CD1-4637-BF30-03A3E4FA910A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
