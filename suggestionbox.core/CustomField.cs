@@ -1,6 +1,6 @@
 using System.Reflection.Metadata.Ecma335;
 
-namespace suggestionbox.core;
+namespace SuggestionBox.Core;
 
 public class CustomField
 {

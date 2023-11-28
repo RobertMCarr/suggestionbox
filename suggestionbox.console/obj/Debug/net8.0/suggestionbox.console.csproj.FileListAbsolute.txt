@@ -13,3 +13,7 @@ C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\refint\suggestion
 C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\suggestionbox.console.pdb
 C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\suggestionbox.console.genruntimeconfig.cache
 C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\ref\suggestionbox.console.dll
+C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\suggestionbox.console.csproj.AssemblyReference.cache
+C:\github\suggestionbox\suggestionbox.console\bin\Debug\net8.0\suggestionbox.core.dll
+C:\github\suggestionbox\suggestionbox.console\bin\Debug\net8.0\suggestionbox.core.pdb
+C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\suggestionbox.console.csproj.CopyComplete

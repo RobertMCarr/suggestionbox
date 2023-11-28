@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace suggestionbox.core;
+namespace SuggestionBox.Core;
 
 public class AuditItems
 {

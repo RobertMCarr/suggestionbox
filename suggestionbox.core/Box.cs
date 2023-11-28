@@ -1,7 +1,6 @@
-namespace suggestionbox.core;
+namespace SuggestionBox.Core;
 
 public class Box
-
 {
     public Guid ID {get; set;}
     public string Name {get; set;}

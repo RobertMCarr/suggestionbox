@@ -1,4 +1,4 @@
-﻿namespace suggestionbox.core;
+﻿namespace SuggestionBox.Core;
 
 public class Suggestion
 {

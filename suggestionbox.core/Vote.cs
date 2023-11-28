@@ -1,6 +1,4 @@
-using suggestionbox.core;
-
-namespace suggestionbox;
+namespace SuggestionBox.Core;
 
 public class Vote
 {
