@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("suggestionbox.api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06350e4000ec8cf725615dbc5d34d0c5a4eb4a2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b7ed7f21afefda54d61e95e8fb4b77984d02bf0")]
 [assembly: System.Reflection.AssemblyProductAttribute("suggestionbox.api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("suggestionbox.api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

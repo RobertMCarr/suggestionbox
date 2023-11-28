@@ -1,0 +1,15 @@
+C:\github\suggestionbox\suggestionbox.console\bin\Debug\net8.0\suggestionbox.console.exe
+C:\github\suggestionbox\suggestionbox.console\bin\Debug\net8.0\suggestionbox.console.deps.json
+C:\github\suggestionbox\suggestionbox.console\bin\Debug\net8.0\suggestionbox.console.runtimeconfig.json
+C:\github\suggestionbox\suggestionbox.console\bin\Debug\net8.0\suggestionbox.console.dll
+C:\github\suggestionbox\suggestionbox.console\bin\Debug\net8.0\suggestionbox.console.pdb
+C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\suggestionbox.console.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\suggestionbox.console.AssemblyInfoInputs.cache
+C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\suggestionbox.console.AssemblyInfo.cs
+C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\suggestionbox.console.csproj.CoreCompileInputs.cache
+C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\suggestionbox.console.sourcelink.json
+C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\suggestionbox.console.dll
+C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\refint\suggestionbox.console.dll
+C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\suggestionbox.console.pdb
+C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\suggestionbox.console.genruntimeconfig.cache
+C:\github\suggestionbox\suggestionbox.console\obj\Debug\net8.0\ref\suggestionbox.console.dll
