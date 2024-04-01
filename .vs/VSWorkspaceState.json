@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\suggestionbox.api",
+    "\\suggestionbox.console",
+    "\\suggestionbox.core",
+    "\\suggestionbox.core\\Utilities",
+    "\\suggestionbox.ui",
+    "\\suggestionbox.ui\\src"
+  ],
+  "SelectedNode": "\\suggestionbox.api\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

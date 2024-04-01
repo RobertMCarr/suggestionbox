@@ -23,7 +23,7 @@ public class Program
             Console.WriteLine("Initialising Suggestion Factory");
             SuggestionFactory sf = new SuggestionFactory();
             Console.WriteLine("Creating Test Suggestion");
-            Suggestion suggestion = sf.Create("Get Better at coding", "imprivements needed", new User("Robert"), box);
+           // Suggestion suggestion = sf.Create("Get Better at coding", "imprivements needed", new User(new Guid(), "Robert"), box);
             Console.WriteLine("Setup successful.");
         }
 

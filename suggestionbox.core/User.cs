@@ -2,12 +2,12 @@ namespace SuggestionBox.Core;
 
 public class User
 {
-    public Guid ID {get; set;}
+    public Guid Id {get; set;}
     public string Name {get; set;}
 
-    public User(string name)
+    public User(Guid id, string name)
     {
-        ID = new Guid();
+        Id = id;
         Name = name;
     }
 }

@@ -2,31 +2,24 @@
 
 public class Suggestion
 {
-    public Guid ID { get; set; }
+    public Guid Id { get; set; }
     public string Title { get; set; }
     public string Description { get; set; }
-    public User Author { get; set; }
-    public List<Comment> Comments {get; set;}
-    public List<Tag> SuggestionTypes {get; set;}
-    public List<Tag> Statuses {get; set;}
-    public List<Tag> Metadata {get; set;}
-    public List<CustomField> CustomFields {get; set;}
-    public List<Vote> Votes {get; set;}
-    public List<AuditItems> Audit {get; set;}
+    public Guid AuthorId { get; set; }
+    public int Score { get; set; }
+    public Guid BoxId { get; set; }
+    public string Tags { get; set; }
+    public BoxStatuses Status { get; set; }
 
-    public Suggestion(Guid id, string title, string description, User author)
+    public Suggestion(Guid id, Guid boxId, string title, string description, Guid userId, string tags)
     {
-        ID = id;
+        Id = id;
         Title = title;
         Description = description;
-        Author = author;
-
-        Comments = new List<Comment>();
-        SuggestionTypes = new List<Tag>();
-        Statuses = new List<Tag>();
-        Metadata = new List<Tag>();
-        CustomFields = new List<CustomField>();
-        Votes = new List<Vote>();
-        Audit = new List<AuditItems>();
+        AuthorId = userId;
+        BoxId = boxId;
+        Tags = tags;
+        Score = 0;
+        Status = BoxStatuses.Closed;
     }
 }
