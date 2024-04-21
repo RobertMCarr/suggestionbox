@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:suggestionbox/components/MyTextField.dart';
-import 'package:suggestionbox/components/MyButton.dart';
-import 'package:suggestionbox/components/SquareTile.dart';
+import 'package:suggestionbox/components/my_text_box.dart';
+import 'package:suggestionbox/components/my_button.dart';
+import 'package:suggestionbox/components/square_tile.dart';
 
 class LoginPage extends StatelessWidget {
   LoginPage({super.key});
@@ -43,7 +43,7 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 25),
 
               // username text field
-              MyTextField(
+              MyTextBox(
                 controller: usernameController,
                 hintText: 'Username',
                 obscureText: false,
@@ -52,7 +52,7 @@ class LoginPage extends StatelessWidget {
               // password text field
               const SizedBox(height: 10),
 
-              MyTextField(
+              MyTextBox(
                 controller: passwordController,
                 hintText: 'Password',
                 obscureText: true,
