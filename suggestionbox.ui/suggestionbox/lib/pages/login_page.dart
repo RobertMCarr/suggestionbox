@@ -11,14 +11,41 @@ class LoginPage extends StatelessWidget {
   final usernameController = TextEditingController();
   final passwordController = TextEditingController();
 
-  //sign in method with email and password
-  Future<void> signInWithEmail() async {
-    final AuthResponse res = await Supabase.instance.client.auth.signInWithPassword(
-      email: usernameController.text,
-      password: passwordController.text
+  void showLoginDialog(BuildContext context) async {
+     AlertDialog alert = AlertDialog(
+          title: const Text('Login Unsuccessful'),
+          content: const Text('Please try again.'),
+          actions: <Widget>[
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child:  const Text("OK"),
+            ),
+          ],
+          //elevation: 24.0,
+          //backgroundColor: Colors.blue,
+        );  
+
+        // show the dialog
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return alert;
+      },
+      barrierDismissible: true,
     );
   }
 
+  //sign in method with email and password
+  Future<void> signInWithEmail(BuildContext context) async {
+    try {
+      await Supabase.instance.client.auth.signInWithPassword(
+        email: usernameController.text,
+        password: passwordController.text
+      );
+    } catch(e) {
+      showLoginDialog(context);
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -86,7 +113,7 @@ class LoginPage extends StatelessWidget {
             
                 // sign in button
                 MyButton(
-                  onTap: signInWithEmail,
+                  onTap: () => signInWithEmail(context),
                 ),
             
                 const SizedBox(height: 25),
