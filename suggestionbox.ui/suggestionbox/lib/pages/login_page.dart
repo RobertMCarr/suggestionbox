@@ -21,8 +21,8 @@ class LoginPage extends StatelessWidget {
               child:  const Text("OK"),
             ),
           ],
-          //elevation: 24.0,
-          //backgroundColor: Colors.blue,
+          elevation: 24.0,
+          backgroundColor: Colors.blue,
         );  
 
         // show the dialog
